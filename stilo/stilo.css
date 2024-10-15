@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../SaveClip.App_327037333_595999825901343_434355118257409323_n.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+.principal{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  
+}
+.esquerda{
+  background-image: linear-gradient(to top, #fff, rgb(86, 81, 81));
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:  10px 0 0 10px;
+  opacity: 0.7;
+}
+.esquerda img{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.direita{
+  background-image: linear-gradient(to top, rgb(73, 69, 69), #fff);
+  opacity: 0.7;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 10px 10px 0;
+}
+
+form{
+  width: 40%;
+  height: 60%;
+  padding: 4% 5%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  gap: 10px;
+  background-image: linear-gradient(to top, rgba(229, 205, 24, 0.885), gray);
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.linha{
+  background-color: rgb(236, 226, 226);
+  height: 5px;
+  width: 210px;
+}
+.form-group input{
+  padding: 7px;
+  border: 0;
+  border-radius: 4px;
+}
+.lembrar{
+  display: flex;
+  gap: 5px;
+
+}
+button{
+  height: 30px;
+  border: 0;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color:#fff;
+  padding: 7px;
+  background-image: linear-gradient(to left, rgb(54, 47, 47), rgb(106, 104, 104));
+  ;
+}
